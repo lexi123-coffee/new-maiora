@@ -6,15 +6,42 @@ import MenuItemRight from '../components/MenuItemRight.astro';
 const secciones = [
     {
     tituloIzquierda: "Huevos al gusto <br/> <small>(frijoles, chilaquiles)</small>",
+    centro: {
+        title: "Especialidad de la casa",
+        sub_item_title: "Ven y disfruta de nuestros ricos platillos desde:",
+        sub_item_price: "$70",
+        rows: [
+            { title: "Ingredientes extra:", price: "$15" },
+            { title: "Bebidas desde:", price: "$45" }
+        ]
+    },
     precioIzquierda: "$30",
     imagenIzquierda: "/images/chilaquiles.jpg",
     tituloDerecha: "Rollos de Sushi",
     precioDerecha: "$45",
-    imagenDerecha: "/images/Sushi.jpg"
+    imagenDerecha: "/images/Sushi.jpg",
+    extra: {
+        title: "Especialidad de la casa",
+        sub_item_title: "Ven y disfruta de nuestros ricos platillos desde:",
+        sub_item_price: "$70",
+        rows: [
+            { title: "Ingredientes extra:", price: "$15" },
+            { title: "Bebidas desde:", price: "$45" }
+        ]
+    }
   },
 
   {
     tituloIzquierda: "Sección 2 - Platillo A",
+    centro : {
+        title: "Lo mejor del dia",
+        sub_item_title: "Ven y disfruta de nuestros ricos platillos desde:",
+        sub_item_price: "$80",
+        rows: [
+            { title: "Puedes aramar tu combo a tu gusto", price: "$15" },
+            { title: "Bebidas desde:", price: "$45" }
+        ]
+    },
     precioIzquierda: "$100",
     imagenIzquierda: "/images/ensalada.jpg",
     tituloDerecha: "Sección 2 - Platillo B",
@@ -24,6 +51,15 @@ const secciones = [
 
   {
     tituloIzquierda: "Sección 3 - Platillo A",
+        centro : {
+            title: "Para los que buscan algo diferente",
+            sub_item_title: "Todo ajustado a tu medida",
+            sub_item_price: "$90",
+            rows: [
+                { title: "Recuerda que hay envios a domicilio", price: "$15" },
+                { title: "Precio del envio", price: "$20" }
+            ]
+        },
     precioIzquierda: "$110",
     imagenIzquierda: "/images/nopal.jpg",
     tituloDerecha: "Sección 2 - Platillo B",
@@ -33,6 +69,15 @@ const secciones = [
 
   {
     tituloIzquierda: "Sección 4 - Platillo A",
+        centro : {
+            title: "La delicia que envuelve tu corazon",
+            sub_item_title: "Hecho justo para ti",
+            sub_item_price: "$95",
+            rows: [
+                { title: "Reservaciones disponibles", price: "$50" },
+                { title: "Mesas decoradas", price: "$40" }
+            ]
+        },
     precioIzquierda: "$85",
     imagenIzquierda: "/images/pechuga.jpg",
     tituloDerecha: "Sección 2 - Platillo B",
@@ -42,6 +87,15 @@ const secciones = [
 
    {
     tituloIzquierda: "Sección 5 - Platillo A",
+    centro : {
+        title: "Ese sabor inigualable...",
+        sub_item_title: "No te quedes sin probarlo",
+        sub_item_price: "$100",
+        rows: [
+            { title: "Eres libre de elegir tus ingredientes", price: "$15" },
+            { title: "Tequilas desde:", price: "$45" }
+        ]
+    },
     precioIzquierda: "$75",
     imagenIzquierda: "/images/torta.jpg",
     tituloDerecha: "Sección 2 - Platillo B",
@@ -51,6 +105,15 @@ const secciones = [
 
   {
     tituloIzquierda: "Sección 6 - Platillo A",
+        centro : {
+            title: "Los sabores que te hacen sentir como en casa",
+            sub_item_title: "Promociones adecuadas a tu presupuesto",
+            sub_item_price: "$100",
+            rows: [
+                { title: "Vino tinto desde:", price: "$150" },
+                { title: "Aguas de sabores desde:", price: "$45" }
+            ]
+        },
     precioIzquierda: "$100",
     imagenIzquierda: "/images/asada.jpg",
     tituloDerecha: "Sección 2 - Platillo B",
@@ -60,6 +123,15 @@ const secciones = [
 
   {
     tituloIzquierda: "Sección 7 - Platillo A",
+        centro : {
+            title: "La simpleza de lo delicioso",
+            sub_item_title: "Puedes disfrutar de estos dos platillos a tan solo:",
+            sub_item_price: "$90",
+            rows: [
+                { title: "Mojito cubano:", price: "$100" },
+                { title: "Shot de tequila", price: "$45" }
+            ]
+        },
     precioIzquierda: "$100",
     imagenIzquierda: "/images/risa.jpg",
     tituloDerecha: "Sección 2 - Platillo B",
@@ -69,6 +141,15 @@ const secciones = [
 
   {
     tituloIzquierda: "Sección 8 - Platillo A",
+        centro : {
+                title: "El postre que te hará volver por más",
+                sub_item_title: "Dulces momentos a precios irresistibles",
+                sub_item_price: "$50",
+                rows: [
+                    { title: "Postres desde:", price: "$35" },
+                    { title: "Torre de mariscos desde.", price: "$120" }
+                ]
+            },
     precioIzquierda: "$35",
     imagenIzquierda: "/images/dulces.jpg",
     tituloDerecha: "Sección 2 - Platillo B",
@@ -78,6 +159,15 @@ const secciones = [
 
   {
     tituloIzquierda: "Sección 9 - Platillo A",
+        centro : {
+                title: "¿Quieres consentir a tu estómago?",
+                sub_item_title: "Promociones del dia jueves desde:",
+                sub_item_price: "$50",
+                rows: [
+                    { title: "Camarones ", price: "$95" },
+                    { title: "Ceviche", price: "$85" }
+                ]
+            },
     precioIzquierda: "$35",
     imagenIzquierda: "/images/crepa.jpg",
     tituloDerecha: "Sección 2 - Platillo B",
@@ -89,7 +179,13 @@ const secciones = [
 ---
 
 <Layout title="Menú Digital Maiora">
-  <main class="menu-slider">
+  <main class="menu-slider" id="main-container">
+    <button id="fullscreen-btn" class="fs-button" title="Pantalla Completa">
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+        </svg>
+    </button>
+
        {secciones.map((sec, index) => (
            <div class={`menu-page ${index === 0 ? 'active' : ''}`}>
               <div class="grid-item">
@@ -105,9 +201,9 @@ const secciones = [
               <div class="linea linea-left"></div>
                 <div class="grid-item item-teal">
                     <div class="top-content">
-                       <h2>Especialidad de la casa</h2>
+                       <h2>{sec.centro?.title || "Especialidad"}</h2>
                         <ul>
-                           <li><span>Ven y disfruta de nuestros ricos platillos desde:</span> <span>$50</span></li>
+                           <li><span>{sec.centro?.sub_item_title || "Ven y disfruta de nuestros ricos platillos desde:"}</span> <span>{sec.centro?.sub_item_price || "$75"}</span></li>
                         </ul>
                    </div>
 
@@ -118,8 +214,12 @@ const secciones = [
                   </div>
                    <div class="bottom-content">
                        <ul>
-                           <li><span><b>Ingredientes extra:</b></span> <span>$15</span></li>
-                           <li><span>Bebidas desde:</span> <span>$45</span></li>
+                           {sec.centro?.rows?.map((row) => (
+                            <li>
+                                <span>{row.title}</span>
+                                <b>{row.price}</b>
+                            </li>
+                           ))}
                        </ul>
                    </div>
                 </div>
@@ -140,11 +240,42 @@ const secciones = [
 </Layout>
 
 <style>
+    .fs-button {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 100;
+        background: rgba(0, 0, 0, 0.4);
+        color: #C5A059;
+        border: 1px solid rgba(197, 160, 89, 0.5);
+        padding: 12px;
+        border-radius: 50%;
+        cursor: pointer;
+        opacity: 0.4;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fs-button:hover {
+        opacity: 1 !important;
+        border-color: #C5A059;
+        transform: scale(1.1);
+    }
+
+    :global(:fullscreen) .fs-button,
+    :global(:-webkit-full-screen) .fs-button {
+        opacity: 0;
+        background: transparent;
+        border-color: transparent;
+    }
+
     .menu-slider {
         position: relative;
         width: 100vw;
         height: 100vh;
-        background-color: #000;
+        background-color: #171313;
         overflow: hidden;
     }
 
@@ -158,13 +289,14 @@ const secciones = [
         grid-template-columns: repeat(3, 1fr);
         opacity: 0;
         visibility: hidden;
-        transition: opacity 1.5s ease-in-out;
+        transition: opacity 1.2s ease-in-out, visibility 1.2s;
     }
 
     .menu-page.active {
         opacity: 1;
         visibility: visible;
         z-index: 10;
+        transition: 0.8s ease-in-out;
     }
 
     .grid-item {
@@ -243,17 +375,6 @@ const secciones = [
       animation:
         entradaDesdeArriba 1.2s ease-out forwards,
         pulsoSuave 5s ease-in-out 1.2s infinite;
-    }
-
-    @keyframes pulsoSuave {
-        0%, 100% {
-            transform: scale(1);
-            filter: drop-shadow(0px 0px 20px rgba(224, 183, 107, 0.6));
-        }
-        50% {
-            transform: scale(1.08);
-            filter: drop-shadow(0px 0px 50px rgba(224, 183, 107, 1));
-        }
     }
 
     .masked-logo {
@@ -355,26 +476,6 @@ const secciones = [
         }
     }
 
-    @keyframes flotar {
-       0%,100% {
-          transform: translateY(0px);
-        }
-       50% {
-          transform: translateY(-3px);
-        }
-    }
-
-    @keyframes watchme {
-       0%, 100% {
-         transform: scale(1) translateY(-6px);
-         filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
-        }
-      25%, 75% {
-         transform: scale(1.12) translateY(-6px);
-         filter: drop-shadow(0 0 25px rgba(197, 160, 89, 1));
-        }
-    }
-
     @keyframes entradaDesdeDerecha {
        from {
           opacity: 0;
@@ -421,12 +522,16 @@ const secciones = [
       display: block;
       margin: 0;
     }
+</style>
 
-</style> <script>
+<script>
     const slides = document.querySelectorAll('.menu-page');
+    const container = document.getElementById('main-container');
+    const fsBtn = document.getElementById('fullscreen-btn');
     let currentSlide = 0;
 
     function rotateMenu() {
+        if (slides.length === 0) return;
         slides[currentSlide].classList.remove('active');
         currentSlide = (currentSlide + 1) % slides.length;
         slides[currentSlide].classList.add('active');
@@ -434,4 +539,22 @@ const secciones = [
 
     setInterval(rotateMenu, 10000);
 
+    fsBtn.addEventListener('click', () => {
+        if (!document.fullscreenElement) {
+            container.requestFullscreen().catch(err => {
+                console.error(`Error: ${err.message}`);
+            });
+        } else {
+            document.exitFullscreen();
+        }
+    });
+
+    let cursorTimeout;
+    container.addEventListener('mousemove', () => {
+        container.style.cursor = 'default';
+        clearTimeout(cursorTimeout);
+        cursorTimeout = setTimeout(() => {
+            container.style.cursor = 'none';
+        }, 3000);
+    });
 </script>
