@@ -198,7 +198,6 @@ const secciones = [
                    </div>
               </div>
 
-              <div class="linea linea-left"></div>
                 <div class="grid-item item-teal">
                     <div class="top-content">
                        <h2>{sec.centro?.title || "Especialidad"}</h2>
@@ -209,7 +208,7 @@ const secciones = [
 
                    <div class="mid-image logo-container">
                        <div class="logo-wrapper">
-                            <img src="/images/logo.jpg" alt="Maiora logo" class="masked-logo" />
+                            <img src="/images/remove.png" alt="Maiora logo" class="masked-logo" />
                       </div>
                   </div>
                    <div class="bottom-content">
@@ -224,7 +223,6 @@ const secciones = [
                    </div>
                 </div>
 
-               <div class="linea linea-right"></div>
                <div class="grid-item">
                    <div class="right-box">
                        <MenuItemRight
@@ -241,320 +239,205 @@ const secciones = [
 
 <style>
     .fs-button {
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        z-index: 100;
-        background: rgba(0, 0, 0, 0.4);
-        color: #C5A059;
-        border: 1px solid rgba(197, 160, 89, 0.5);
-        padding: 12px;
-        border-radius: 50%;
-        cursor: pointer;
-        opacity: 0.4;
-        transition: all 0.3s ease;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 100;
+      background: rgba(0, 0, 0, 0.4);
+      color: #C5A059;
+      border: 1px solid rgba(197, 160, 89, 0.5);
+      padding: 12px;
+      border-radius: 50%;
+      cursor: pointer;
+      opacity: 0.4;
+      transition: opacity 0.3s;
     }
 
-    .fs-button:hover {
-        opacity: 1 !important;
-        border-color: #C5A059;
-        transform: scale(1.1);
-    }
-
-    :global(:fullscreen) .fs-button,
-    :global(:-webkit-full-screen) .fs-button {
-        opacity: 0;
-        background: transparent;
-        border-color: transparent;
-    }
-
-    .menu-slider {
-        position: relative;
-        width: 100vw;
-        height: 100vh;
-        background-color: #171313;
-        overflow: hidden;
-    }
-
-    .menu-page {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 1.2s ease-in-out, visibility 1.2s;
-    }
-
-    .menu-page.active {
-        opacity: 1;
-        visibility: visible;
-        z-index: 10;
-        transition: 0.8s ease-in-out;
-    }
-
-    .grid-item {
-        position: relative;
-        box-sizing: border-box;
-        border: 0.5px solid rgba(197, 160, 89, 0.25);
-        box-shadow:
-             inset 0 0 20px rgba(0, 0, 0, 0.6),
-             inset 0 0 60px rgba(0, 0, 0, 0.4);
-        overflow: hidden;
-    }
-
-    .active .grid-item:first-child {
-        animation: entradaDesdeIzquierda 1.2s ease-out forwards;
-    }
-
-    .active .logo-wrapper {
-      animation:
-        entradaDesdeArriba 1.2s ease-out forwards,
-        pulsoSuave 5s ease-in-out 1.2s infinite;
-    }
-
-    .active .top-content,
-    .active .bottom-content {
-        animation: entradaDesdeArriba 1.2s ease-out forwards;
-    }
-
-    @keyframes entradaDesdeIzquierda {
-        from {
-            opacity: 0;
-            transform: translateX(-100%);
-        }
-        to {
-            opacity: 1;
-            transform: translateX(0);
-        }
-    }
-
-    .item-teal {
-        background-color: #171313;
-        color: white;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png");
-        color: white;
-        padding: 0 !important;
-        margin: 0 !important;
-        animation: flotar 8s ease-in-out infinite;
-    }
-
-    .top-content, .bottom-content {
-        height: 22%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 2vw 4vw;
-    }
-
-    .logo-container {
-        height: 56%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-
-    .logo-wrapper {
+   .menu-slider {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      background-color: #171313;
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    /* 🔥 UNA sola animación global */
+    .menu-page {
+      width: 95vw;
+      height: 85vh;
+      max-width: 1800px;
+      display: grid;
+      grid-template-columns: 1.6fr 1.4fr 1.6fr;
+      position: absolute;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .menu-page.active {
+      opacity: 1;
+      visibility: visible;
+      transform: scale(1);
+      transition: opacity 0.5s linear, transform 0.5s ease-out;
+      will-change: opacity, transform;
+    }
+
+    /* ❌ eliminamos animaciones individuales */
+    .active .grid-item,
+    .active .logo-wrapper,
+    .active .top-content,
+    .active .bottom-content {
+      animation: none !important;
+    }
+
+    /* layout */
+    .grid-item {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .grid-item:nth-child(1),
+    .grid-item:nth-child(2) {
+      border-right: 1px solid rgba(197, 160, 89, 0.25);
+    }
+
+    :global(.left-box),
+    :global(.right-box) {
+        flex: 1;
+        display: flex;
+    }
+
+    :global(.left-box > *),
+    :global(.right-box > *) {
+        flex: 1;
+    }
+
+    .item-teal {
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      background: #171313;
+      color: white;
       height: 100%;
-      width: 100%;
-      filter: drop-shadow(0px 0px 3vw rgba(224, 183, 107, 0.7));
-      animation:
-        entradaDesdeArriba 1.2s ease-out forwards,
-        pulsoSuave 5s ease-in-out 1.2s infinite;
+      padding: 1vh 0.5vw;
+    }
+
+    .top-content, .bottom-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1.5vw 0.5vw;
+    }
+
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+    }
+
+    .logo-wrapper {
+      padding: 3vh;
+      border-radius: 16px;
+      background: radial-gradient(circle, rgba(255,255,255,0.25), transparent 70%);
     }
 
     .masked-logo {
-        position: relative;
-        height: 90%;
-        width: auto;
-        max-width: 95%;
-        display: block;
-        object-fit: contain;
-
-        -webkit-mask-image: radial-gradient(circle, black 69%, transparent 70%);
-        mask-image: radial-gradient(circle, black 69%, transparent 70%);
-        -webkit-mask-repeat: no-repeat;
-        mask-repeat: no-repeat;
-        -webkit-mask-position: center;
-        mask-position: center;
+      width: 100%;
+      max-height: 35vh;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto;
+      filter: drop-shadow(0 0 10px rgba(255,255,255,0.6))
+        drop-shadow(0 0 20px rgba(200,200,200,0.4));
     }
 
+    /* tipografías más ligeras */
     h2 {
-        font-family: 'Cinzel', serif;
-        font-size: 2.5vw;
-        margin-bottom: 1vh;
-        color: #C5A059;
-        text-transform: uppercase;
-    }
-
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
+      font-size: 1.1vw;
+      text-align: center;
+      line-height: 1.2;
+      color: #C5A059;
     }
 
     li {
-        display: flex;
-        justify-content: space-between;
-        font-family: 'Montserrat', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        font-size: 1.2vw;
-        font-weight: 400;
-        border-bottom: 1px solid rgba(197, 160, 89, 0.2);
-        padding: 2vh 0;
-        margin-bottom: 0;
-    }
-
-    li b {
-        color: #C5A059
-    }
-
-    @keyframes entradaDesdeArriba {
-        from {
-            opacity: 0;
-            transform: translateY(-100%);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-
-    .linea {
-        position: absolute;
-        top: -160px;
-        width: 8px;
-        height: 160px;
-        background: linear-gradient(
-            to bottom,
-            transparent,
-            #d4af37,
-            transparent
-        );
-        box-shadow:
-          0 0 12px rgba(212, 175, 55, .9),
-          0 0 25px rgba(212, 175, 55, .8),
-          0 0 45px rgba(212, 175, 55, .6);
-        animation: getdown 6s linear infinite;
-        z-index: 10;
-    }
-
-    .linea-left{
-        left: calc(33.33% - 4px);
-
-    }
-
-    .linea-right {
-        left: calc(66.66% - 4px);
-    }
-
-    .active .grid-item:last-child {
-       animation: entradaDesdeDerecha 1.2s ease-out forwards;
-    }
-
-    @keyframes getdown {
-        from {
-            top: -160px;
-        }
-        to {
-            top: 100%;
-        }
-    }
-
-    @keyframes entradaDesdeDerecha {
-       from {
-          opacity: 0;
-          transform: translateX(100%);
-        }
-        to {
-           opacity: 1;
-           transform: translateX(0);
-        }
-    }
-
-   :global(.left-box), :global(.right-box) {
-      height: 100vh;
-      width: 100%;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-      position: relative;
+      justify-content: space-between;
+      font-size: 0.65vw;
+      border-bottom: 1px solid rgba(197, 160, 89, 0.2);
+      padding: 0.5vh 0.2vw;
     }
 
-    :global(.left-box [class*="price"]),
-    :global(.left-box b),
-    :global(.right-box [class*="price"]),
-    :global(.right-box b) {
-      display: inline-block;
-      margin-top: 1.5rem;
-      margin-bottom: 2rem !important;
-      animation: watchme 8s ease-in-out infinite;
-    }
-
-    :global(.right-box [class*="price"]),
-    :global(.right-box b) {
-      animation-delay: 4s;
-    }
-
-    :global(.left-box img), :global(.right-box img) {
-      width: 100% !important;
-      height: 100% !important;
+    /* imágenes optimizadas */
+    img {
+      width: 100%;
+      height: 100%;
       object-fit: cover;
-      display: block;
-      margin: 0;
     }
+
+    /* 🚨 MODO TV (ULTRA LIGERO) */
+    .tv-mode * {
+      animation: none !important;
+      transition: none !important;
+    }
+
 </style>
 
 <script>
-    const slides = document.querySelectorAll('.menu-page');
-    const container = document.getElementById('main-container');
-    const fsBtn = document.getElementById('fullscreen-btn');
-    let currentSlide = 0;
+   const slides = document.querySelectorAll('.menu-page');
+   const container = document.getElementById('main-container');
+   const fsBtn = document.getElementById('fullscreen-btn');
 
-    function rotateMenu() {
-        if (slides.length === 0) return;
-        slides[currentSlide].classList.remove('active');
-        currentSlide = (currentSlide + 1) % slides.length;
-        slides[currentSlide].classList.add('active');
+   let currentSlide = 0;
+   let lastTime = 0;
+   const INTERVAL = 10000;
+   // 🔥 detectar TV
+   const isTV = /TV|Tizen|WebOS|SmartTV/i.test(navigator.userAgent);
+    if (isTV) {
+      document.body.classList.add('tv-mode');
+    }
+    // cambio de slide optimizado
+    function updateSlides() {
+        slides.forEach((s, i) => {
+            if (i === currentSlide) {
+                s.classList.add('active');
+            } else {
+                s.classList.remove('active');
+            }
+        });
     }
 
-    setInterval(rotateMenu, 10000);
+    function loop(timestamp) {
+        if (!lastTime) lastTime = timestamp;
 
+        if (timestamp - lastTime > INTERVAL) {
+            currentSlide = (currentSlide + 1) % slides.length;
+            updateSlides();
+            lastTime = timestamp;
+        }
+
+        requestAnimationFrame(loop);
+    }
+
+    requestAnimationFrame(loop);
+    // fullscreen
     fsBtn.addEventListener('click', () => {
         if (!document.fullscreenElement) {
-            container.requestFullscreen().catch(err => {
-                console.error(`Error: ${err.message}`);
-            });
+            container.requestFullscreen().catch(() => {});
         } else {
             document.exitFullscreen();
         }
     });
 
+    // ocultar cursor
     let cursorTimeout;
     container.addEventListener('mousemove', () => {
         container.style.cursor = 'default';
         clearTimeout(cursorTimeout);
         cursorTimeout = setTimeout(() => {
-            container.style.cursor = 'none';
-        }, 3000);
+             container.style.cursor = 'none';
+        }, 2000);
     });
+
 </script>
