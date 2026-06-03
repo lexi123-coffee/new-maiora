@@ -1,0 +1,71 @@
+---
+/**
+ * AutoUpdate.astro
+ *
+ * Drop this into your base layout to keep a TV / kiosk menu in sync with
+ * Netlify deploys. It polls /version.json and, when the deployed version
+ * changes, navigates to a cache-busting URL so even stubborn native TV
+ * browsers (Tizen, webOS, Android TV) pull the fresh build.
+ *
+ * Requirements (from the earlier steps):
+ *   1. src/pages/version.json.ts  -> exposes { version } per build
+ *   2. public/_headers            -> no-store on /version.json, etc.
+ *
+ * Usage in your layout:
+ *   ---
+ *   import AutoUpdate from "../components/AutoUpdate.astro";
+ *   ---
+ *   <head>
+ *     <AutoUpdate />
+ *     <!-- or: <AutoUpdate checkInterval={30000} dailyReloadHour={3} /> -->
+ *   </head>
+ */
+
+interface Props {
+  /** How often to check for a new version, in milliseconds. Default: 60s */
+  checkInterval?: number;
+  /** Hour (0-23, local time) for a daily safety reload. null disables it. Default: 4 */
+  dailyReloadHour?: number | null;
+}
+
+const { checkInterval = 60_000, dailyReloadHour = 4 } = Astro.props;
+---
+
+<script define:vars={{ checkInterval, dailyReloadHour }}>
+  let current = null;
+
+  // Reload the current page with a fresh query string so the TV browser
+  // can't satisfy the request from cache.
+  function hardReload(version) {
+    location.replace(`${location.pathname}?v=${version}`);
+  }
+
+  async function check() {
+    try {
+      // ?t= defeats TV browsers that cache /version.json despite no-store
+      const res = await fetch(`/version.json?t=${Date.now()}`, { cache: "no-store" });
+      if (!res.ok) return;
+      const { version } = await res.json();
+      if (current === null) {
+        current = version; // first load: remember what we're showing
+      } else if (version !== current) {
+        hardReload(version); // a new deploy is live -> refresh
+      }
+    } catch {
+      // ignore network blips; we'll try again next interval
+    }
+  }
+
+  setInterval(check, checkInterval);
+  check();
+
+  // Daily safety reload: scheduled with a single timeout so it fires once
+  // (a setInterval that checks the hour would loop every minute at that hour).
+  if (dailyReloadHour !== null) {
+    const now = new Date();
+    const next = new Date();
+    next.setHours(dailyReloadHour, 0, 0, 0);
+    if (next <= now) next.setDate(next.getDate() + 1);
+    setTimeout(() => hardReload(Date.now()), next.getTime() - now.getTime());
+  }
+</script>
