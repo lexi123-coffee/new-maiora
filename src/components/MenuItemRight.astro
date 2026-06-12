@@ -6,15 +6,18 @@ interface Props {
 }
 
 const { title, price, image } = Astro.props;
+const hasPrice = price !== undefined && price !== null && price !== '';
 ---
 
 <article class="menu-item">
     <div class="info-container">
         <div class="text-wrapper">
             <h2 set:html={title} />
-            <div class="price-badge">
-                <span class="price-value">{price}</span>
-            </div>
+            { hasPrice &&
+              <div class="price-badge">
+                  <span class="price-value">{price}</span>
+              </div>
+            }
         </div>
     </div>
 
