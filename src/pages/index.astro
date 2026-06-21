@@ -12,7 +12,7 @@ const secciones = [
         sub_item_price: " ",
         rows: [
             { title: "Todo a tu gusto, con cariño hasta tu mesa.", price: "" },
-            { title: "", price: "" }
+            { title: "La experiencia del sabor bien hecho, con elegancia en cada plato.", price: "" }
         ]
     },
     precioIzquierda: ".",
@@ -269,7 +269,7 @@ const secciones = [
     tituloIzquierda: "¡EN MAIORA YA USAMOS ENERGÍA SOLAR!<br><span class=\"subtitulo\">ALIMENTAMOS PERSONAS, RESPETAMOS LA NATURALEZA.</span>",
         centro : {
                 title: "INNOVACIÓN, SABOR Y SUSTENTABILIDAD.",
-                sub_item_title: "📍 PORTAL OCAMPO #10.",
+                sub_item_title: "WhatsApp: 353-132-14-05",
                 sub_item_price: " ",
                 rows: [
                     { title: "Rosa Gonzáles - Asesora de ventas.", price: "" },
@@ -290,8 +290,8 @@ const secciones = [
                 sub_item_title: "📍 PORTAL OCAMPO #10.",
                 sub_item_price: " ",
                 rows: [
-                    { title: "DISFRUTA DE: MICHELADAS, MOJITOS, MEZCALITAS Y MÁS...", price: "" },
-                    { title: "TEL: 351-175-40-97", price: "" }
+                    { title: "Disfruta de: micheladas, mojitos, mezcalitas y más...", price: "" },
+                    { title: "Tel: 351-175-40-97", price: "" }
                 ]
             },
     precioIzquierda: ".",
@@ -438,7 +438,8 @@ const secciones = [
 
     .item-teal {
       display: grid;
-      grid-template-rows: auto 1fr auto;
+      grid-template-rows: auto auto auto;
+      justify-content: center;
       background: #171313;
       color: white;
       height: 100%;
@@ -449,7 +450,11 @@ const secciones = [
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 1.5vw 0.5vw;
+      padding: 1vw 0.5vw;
+    }
+
+    .bottom-content {
+      margin-top: -110px;
     }
 
     .logo-container {
@@ -457,6 +462,7 @@ const secciones = [
       justify-content: center;
       align-items: center;
       flex: 1;
+      transform: translateY(-40px);
     }
 
     .logo-wrapper {
@@ -467,7 +473,7 @@ const secciones = [
 
     .masked-logo {
       width: 100%;
-      max-height: 35vh;
+      max-height: 23vh;
       object-fit: contain;
       display: block;
       margin: 0 auto;
