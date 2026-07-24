@@ -1,0 +1,132 @@
+---
+const {
+  imagen,
+  titulo,
+  descripcion = [],
+} = Astro.props;
+---
+
+<div class="fullscreen-slide">
+
+  <div class="image-box">
+    <img src={imagen} alt={titulo} />
+  </div>
+
+  <div class="info-box">
+
+    <h1>{titulo}</h1>
+
+    <ul>
+      {descripcion.map((item) => (
+        <li>{item}</li>
+      ))}
+    </ul>
+
+  </div>
+
+</div>
+
+<style>
+
+.fullscreen-slide{
+    width:100%;
+    height:100%;
+
+    display:flex;
+    flex-direction:row;
+
+    justify-content:center;
+    align-items:center;
+
+    gap: 5vw;
+
+    padding:3vh 5vw;
+
+    box-sizing:border-box;
+
+    background:#171313;
+}
+
+/* Imagen */
+
+.image-box{
+
+    width:55%;
+    aspect-ratio:1 / 1;
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    border:4px solid rgba(197,160,89,.45);
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,.45),
+        0 0 35px rgba(197,160,89,.25);
+}
+
+.image-box img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    filter:
+      brightness(1.15)
+      contrast(1.1)
+      saturate(1.15);
+}
+
+/* Texto */
+
+.info-box{
+
+    width:35%;
+
+    text-align:left;
+}
+
+.info-box h1{
+
+    color:#C5A059;
+
+    font-size:4vw;
+
+    margin-bottom:3vh;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+}
+
+.info-box ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+}
+
+.info-box li{
+
+    color:#E5D7C3;
+
+    font-size:2.4vw;
+
+    margin-bottom:2vh;
+
+    line-height:1.8;
+}
+
+.info-box li::before{
+
+    content:"✓ ";
+
+    color:#C5A059;
+
+    font-weight:bold;
+}
+
+</style>

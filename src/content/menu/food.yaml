@@ -1,0 +1,342 @@
+name: Food
+
+slides:
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "CHILAQUILES ROJOS"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/chilaquiles.jpg"
+
+      tituloDerecha: "Rollos de Sushi"
+      precioDerecha: "."
+      imagenDerecha: "/images/Sushi.jpg"
+
+      centro:
+        title: "SABOR, AROMA Y MOMENTOS INOLVIDABLES"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "La experiencia del sabor bien hecho, con elegancia en cada plato."
+            price: " "
+          - title: "Todo a tu gusto, con cariño hasta tu mesa."
+            price: " "
+
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "ENSALADA<br><span class=\"subtitulo\">(ESCOGE TU PROTEÍNA)</span>"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/ensalada.jpg"
+
+      tituloDerecha: "CHAROLA BOTANERA"
+      precioDerecha: "."
+      imagenDerecha: "/images/mix.jpg"
+
+      centro:
+        title: "TU RINCÓN FAVORITO PARA DISFRUTAR"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "TRADICIONAL BISTEC DE RES"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/nopal.jpg"
+
+      tituloDerecha: "CAMARONES EMPANIZADOS"
+      precioDerecha: "."
+      imagenDerecha: "/images/nuggets.jpg"
+
+      centro:
+        title: "COMO EN CASA, PERO MÁS RICO"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Bistec: + arroz blanco, vegtales al gusto, salsa, aderezo, frijoles, frijoles."
+            price: " "
+          - title: "Camarones: + arroz blanco, aguacate, zanahoria, pepino, coliflor y aderezo."
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "NOPALES Y POLLO AL GRILL"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/newpechuga.jpg"
+
+      tituloDerecha: "SUSHI ROLL FRITO"
+      precioDerecha: "."
+      imagenDerecha: "/images/sushifrito.jpg"
+
+      centro:
+        title: "LA DELICIA QUE ENVUELVE TU CORAZÓN"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Nopales: + vegetales como jitomate o aguacate y tu salsa favorita."
+            price: " "
+          - title: "Sushi: + ensalada, salsa de soya y algún aderezo a tu gusto."
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "BAGUETTE ARRACHERA"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/torta.jpg"
+
+      tituloDerecha: "ENSALADA MIX ENERGÉTICO"
+      precioDerecha: "."
+      imagenDerecha: "/images/saludable.jpg"
+
+      centro:
+        title: "EL LUGAR DONDE SIEMPRE SE ANTOJA VOLVER"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Baguette: pollo a la plancha o empanizado, camarón, panela o jamón."
+            price: " "
+          - title: "Ensalada: Pepino, nuez, fresa, pasas, aderezo y más..."
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "CARNE ASADA A LA MEXICANA"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/asadacarne.jpg"
+
+      tituloDerecha: "CAMARONES ZARANDEADOS"
+      precioDerecha: "."
+      imagenDerecha: "/images/cama.jpg"
+
+      centro:
+        title: "TRADICIÓN EN CADA PLATILLO"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Carne asada: + rábanos, aguacate, cebolla caramelizada, frijoles y queso."
+            price: " "
+          - title: "Camarones: + arroz blanco, jitomate, pepino, cebolla morada."
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "SUHI ROLL AGUACATE"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/sushiverde.jpg"
+
+      tituloDerecha: "PESCADO Al AJO"
+      precioDerecha: "."
+      imagenDerecha: "/images/ajopescado.jpg"
+
+      centro:
+        title: "INGREDIENTES REALES, SABORES INOLVIDABLES"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Sushi roll aguacate: + salsa tariyaki."
+            price: " "
+          - title: "Pescado al ajo: + arroz blanco, coliflor, brócoli y ensalada de aguacate."
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "SALMÓN TRADICIONAL"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/salmon.jpg"
+
+      tituloDerecha: "PASTA ALFREDO CAMARÓN, POLLO O ARRACHERA"
+      precioDerecha: "."
+      imagenDerecha: "/images/alfredo.jpg"
+
+      centro:
+        title: "EL SABOR QUE TE HARÁ VOLVER POR MÁS"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Salmón: + arroz blanco con piezas vegetales y ensalada."
+            price: " "
+          - title: "Pasta: + fusilli(tornillos), camarones salteados, hierbas frescas, pan tostado."
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "CAMARONES EMPANIZADOS"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/empanizarcam.jpg"
+
+      tituloDerecha: "CAMARONES TRADICIONALES"
+      precioDerecha: "."
+      imagenDerecha: "/images/campan.jpg"
+
+      centro:
+        title: "¿QUIERES CONSENTIR A TU ESTÓMAGO?"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Empanizados: + arroz blanco, ensalada fresca y aderezo a tu gusto."
+            price: " "
+          - title: "Tradicionales: + arroz blanco, ensalada fresca y rebanadas de pan tostado."
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "HAMBURGUESA DE RES"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/hamburguesa.jpg"
+      tituloDerecha: "ARMA TU PLATILLO: CHILAQUILES Y HUEVOS AL GUSTO"
+      precioDerecha: "."
+      imagenDerecha: "/images/cebolla.jpg"
+
+      centro:
+        title: "BUEN AMBIENTE, MEJOR COMIDA"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Hamburguesa: + papas fritas tipo gajo (wedges), recipiente con salsa (BBQ o cátsup)."
+            price: " "
+          - title: "Chilaquiles: + huevo estrellado o frito, trozos de carne asada, crema, queso fresco, cebolla morada."
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "OMELET ACOMPAÑADO"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/burro.jpg"
+
+      tituloDerecha: "ARRACHERA Y POLLO A LA PLANCHA"
+      precioDerecha: "."
+      imagenDerecha: "/images/arros.jpg"
+
+      centro:
+        title: "SAZÓN QUE SÍ ENAMORA"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Omelet: + verduras al gusto, jamón o salchicha."
+            price: " "
+          - title: "Arrachera y pollo: + arroz blanco, salsa, aderezo, ensalada fresca."
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "OMELET TRADICIONAL"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/caldo.jpg"
+
+      tituloDerecha: "¡ARMA TU PLATILLO!"
+      precioDerecha: "."
+      imagenDerecha: "/images/totopo.jpg"
+
+      centro:
+        title: "LA COCINA QUE CONQUISTA"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Omelet: + frijoles refritos con queso fresco y hojas de cilantro."
+            price: " "
+          - title: "Arma tu platillo con: huevos revueltos, chilaquiles verdes/rojos, ensalada fresca, brotes (germinado)."
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "TACOS DE CAMARÓN, ARRACHERA O PESCADO"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/taquitos.jpg"
+
+      tituloDerecha: "AGUACHILE ROJO, VERDE Y NEGRO"
+      precioDerecha: "."
+      imagenDerecha: "/images/charola.jpg"
+
+      centro:
+        title: "SABOR QUE UNE FAMILIAS"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Disfruta tus tacos acompañados de una deliciosa agua de frutos rojos."
+            price: " "
+          - title: "Aguachile: + tostadas, salsas y/o aderezos adicionales, galletas saladas."
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "SUSHI NATURAL ENVUELTITO"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/natsushi.jpg"
+
+      tituloDerecha: "PLATILLO AJUSTADO A DIETA"
+      precioDerecha: "."
+      imagenDerecha: "/images/dietapollo.jpg"
+
+      centro:
+        title: "COCINAMOS CON PASIÓN, SERVIMOS FELICIDAD"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Sushi: + proteína a elegir(pollo, camarón, arrachera)."
+            price: " "
+          - title: "Pltillos ajustados a tu dieta, con las carnes, vegetales y guarniciones personalizadas."
+            price: " "
+
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/energia.jpg"
+
+      titulo: "YA UTILIZAMOS ENERGÍA SOLAR"
+
+      descripcion:
+        - "WhatsApp: 353-132-14-05"
+        - "Rosa González - Asesora de ventas."
+        - "Rodrigo Plascencia - Instalación Profesional."
+
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/suizas.jpg"
+
+      titulo: "¡NUEVO PLATILLO DISPONIBLE!"
+
+      descripcion:
+        - "ENCHILADAS SUIZAS DE JAMÓN O POLLO"
+        - "Las amarás por su rico y cremoso sabor"
+        - "Hechas para mejorar tu día."
+
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/Tbon.jpg"
+
+      titulo: "T-BON O CARNITA ASADA, ¿DE QUÉ TEAM ERES?"
+
+      descripcion:
+        - "¡Lo bueno es que en MAIORA tenemos ambos para tí!"
+        - "Ven y disfruta el sabor que más te gusta"
+        - "Tú eliges... o mejor, prueba los dos!!"
+
+
+
+
+
+
+
+
+
+

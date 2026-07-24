@@ -1,0 +1,292 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from "../layouts/Layout.astro";
+import Triptico from "../templates/Triptico.astro";
+import FullScreen from "../templates/FullScreen.astro";
+
+export async function getStaticPaths() {
+  const menuEntries = await getCollection('menu');
+  return menuEntries.map(entry => ({
+    params: { menu: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const slides = entry.data.slides;
+---
+
+<Layout title="Menú Digital Maiora">
+  <main class="menu-slider" id="main-container">
+    <button id="fullscreen-btn" class="fs-button" title="Pantalla Completa">
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+        </svg>
+    </button>
+       {slides.map((slide, index) => (
+          <div class={`menu-page ${slide.template} ${index === 0 ? "active" : ""}`}>
+
+            {slide.template === "triptico" && (
+              <Triptico {...slide.data} />
+            )}
+
+            {slide.template === "fullscreen" && (
+              <FullScreen {...slide.data} />
+            )}
+          </div>
+      ))}
+  </main>
+</Layout>
+
+<style>
+    .fs-button {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 100;
+      background: rgba(0, 0, 0, 0.4);
+      color: #C5A059;
+      border: 1px solid rgba(197, 160, 89, 0.5);
+      padding: 12px;
+      border-radius: 50%;
+      cursor: pointer;
+      opacity: 0.4;
+      transition: opacity 0.3s;
+    }
+
+   .menu-slider {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      background-color: #171313;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .menu-page {
+      width: 95vw;
+      height: 85vh;
+      max-width: 1800px;
+      position: absolute;
+      opacity: 0;
+      visibility: hidden;
+    }
+    /*
+    .menu-page:has(> .triptico-container) {
+      display: grid;
+      grid-template-columns: 1.6fr 1.4fr 1.6fr;
+    }
+    */
+
+    .menu-page.triptico {
+      display: grid;
+      grid-template-columns: 1.6fr 1.4fr 1.6fr;
+    }
+
+    .menu-page.fullscreen {
+      width: 100vw;
+      height: 100vh;
+      max-width: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .menu-page.active {
+      opacity: 1;
+      visibility: visible;
+      transform: scale(1);
+      transition: opacity 0.5s linear, transform 0.5s ease-out;
+      will-change: opacity, transform;
+    }
+
+    .active .grid-item,
+    .active .logo-wrapper,
+    .active .top-content,
+    .active .bottom-content {
+      animation: none !important;
+    }
+
+    .grid-item {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .grid-item:nth-child(1)::after,
+    .grid-item:nth-child(2)::after {
+        content: "";
+        position: absolute;
+        top: 4%;
+        right: -1px;
+        width: 7px;
+        height: 92%;
+        border-radius: 999px;
+
+        background: linear-gradient(
+            to bottom,
+            rgba(197,160,89,.4),
+            rgba(197,160,89,.9),
+            rgba(197,160,89,.9),
+            transparent
+        );
+
+         box-shadow:
+             0 0 8px rgba(197,160,89,.35),
+             0 0 18px rgba(197,160,89,.25),
+             0 0 30px rgba(197,160,89,.15);
+
+        z-index: 10;
+
+        animation: goldGlow 5s ease-in-out infinite;
+    }
+
+    :global(.left-box),
+    :global(.right-box) {
+        flex: 1;
+        display: flex;
+    }
+
+    :global(.left-box > *),
+    :global(.right-box > *) {
+        flex: 1;
+    }
+
+    .item-teal {
+      display: grid;
+      grid-template-rows: auto auto auto;
+      justify-content: center;
+      background: #171313;
+      color: white;
+      height: 100%;
+      padding: 1vh 0.5vw;
+    }
+
+    .top-content, .bottom-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1vw 0.5vw;
+    }
+
+    .bottom-content {
+      margin-top: -110px;
+    }
+
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      transform: translateY(-40px);
+    }
+
+    .logo-wrapper {
+      padding: 3vh;
+      border-radius: 16px;
+      background: radial-gradient(circle, rgba(255,255,255,0.25), transparent 70%);
+    }
+
+    .masked-logo {
+      width: 100%;
+      max-height: 23vh;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto;
+      filter: drop-shadow(0 0 10px rgba(255,255,255,0.6))
+        drop-shadow(0 0 20px rgba(200,200,200,0.4));
+    }
+
+    h2 {
+      font-size: 1.5vw;
+      text-align: center;
+      line-height: 1.2;
+      color: #C5A059;
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.5vw;
+      border-bottom: 1px solid rgba(197, 160, 89, 0.2);
+      padding: 0.5vh 0.2vw;
+      color: #E5D7C3;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .tv-mode * {
+      animation: none !important;
+      transition: none !important;
+    }
+
+</style>
+
+<script>
+   const slides = document.querySelectorAll('.menu-page');
+   const container = document.getElementById('main-container');
+   const fsBtn = document.getElementById('fullscreen-btn');
+
+   let currentSlide = 0;
+   let lastTime = 0;
+   const INTERVAL = 14000;
+
+   const isTV = /TV|Tizen|WebOS|SmartTV/i.test(navigator.userAgent);
+    if (isTV) {
+      document.body.classList.add('tv-mode');
+    }
+
+    function updateSlides() {
+        slides.forEach((s, i) => {
+            if (i === currentSlide) {
+                s.classList.add('active');
+            } else {
+                s.classList.remove('active');
+            }
+        });
+    }
+
+    function loop(timestamp) {
+        if (!lastTime) lastTime = timestamp;
+
+        if (timestamp - lastTime > INTERVAL) {
+            currentSlide = (currentSlide + 1) % slides.length;
+            updateSlides();
+            lastTime = timestamp;
+        }
+
+        requestAnimationFrame(loop);
+    }
+
+    requestAnimationFrame(loop);
+
+    fsBtn.addEventListener('click', () => {
+        if (!document.fullscreenElement) {
+            container.requestFullscreen().catch(() => {});
+        } else {
+            document.exitFullscreen();
+        }
+    });
+
+    let cursorTimeout;
+    container.addEventListener('mousemove', () => {
+        container.style.cursor = 'default';
+        clearTimeout(cursorTimeout);
+        cursorTimeout = setTimeout(() => {
+             container.style.cursor = 'none';
+        }, 2000);
+    });
+
+</script>
+
+
+
+
+
+

@@ -1,0 +1,421 @@
+name: sweet
+
+slides:
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "PASTEL TAMAÑO GRANDE"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/james.jpg"
+
+      tituloDerecha: "PASTEL TAMAÑO 3/4'S"
+      precioDerecha: "."
+      imagenDerecha: "/images/thanks.jpg"
+
+      centro:
+        title: "TAMAÑOS DE NUESTROS PASTELES"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "PASTEL TAMAÑO CHICO"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/vogue.jpg"
+
+      tituloDerecha: "PASTEL TAMAÑO MINI"
+      precioDerecha: "."
+      imagenDerecha: "/images/jamon.jpg"
+
+      centro:
+        title: "TAMAÑOS DE NUESTROS PASTELES"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "ESPECIAL 'BANANA'"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/minion.jpg"
+
+      tituloDerecha: "FRAPPÉ ALGODÓN DE AZÚCAR"
+      precioDerecha: "."
+      imagenDerecha: "/images/colors.jpg"
+
+      centro:
+        title: "DULCES MOMENTOS, GRANDES RECUERDOS"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "FRAPPÉ DE CARLOTA DE LIMÓN"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/nueva copy.jpg"
+
+      tituloDerecha: "LATTE BERRY MATCHA"
+      precioDerecha: "."
+      imagenDerecha: "/images/verde copy.jpg"
+
+      centro:
+        title: "EL SABOR QUE ACOMPAÑA TUS MEJORES MOMENTOS"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "FRAPPÉ CARLOS V"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/carlosvv.png"
+
+      tituloDerecha: "ORANGE COFFEE"
+      precioDerecha: "."
+      imagenDerecha: "/images/orangecoffee.jpg"
+
+      centro:
+        title: "EL TOQUE DULCE DE TU DÍA"
+        sub_item_title: "📍 PORTAL OCAMPO #10"
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "SODA ITALIANA (DIFERENTES SABORES)"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/sodaitalia.jpg"
+
+      tituloDerecha: "CHEESECAKE DE FRUTOS ROJOS"
+      precioDerecha: "."
+      imagenDerecha: "/images/cake.jpg"
+
+      centro:
+        title: "TU LUGAR FAVORITO PARA CONSERTIRTE"
+        sub_item_title: "De lunes a domingo, siempre contigo."
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "ALFAJOR TRADICIONAL"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/alfajor.jpg"
+
+      tituloDerecha: "ALFAJOR CHOCOLATE BLANCO"
+      precioDerecha: "."
+      imagenDerecha: "/images/ab.jpg"
+
+      centro:
+        title: "DULCE, ELEGANTE Y AUTÉNTICO"
+        sub_item_title: "De lunes a domingo, siempre contigo."
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "ALFAJOR DE OREO"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/another.jpg"
+
+      tituloDerecha: "CREPAS Y HOT CAKES"
+      precioDerecha: "."
+      imagenDerecha: "/images/tres.jpg"
+
+      centro:
+        title: "CADA POSTRE CUENTA UNA HISTORIA"
+        sub_item_title: "De lunes a domingo, siempre contigo."
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "MEZCALITA DE MARACUYÁ (DIFERENTES SABORES)"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/maracuya.jpg"
+
+      tituloDerecha: "SMOOTHIE ICEE"
+      precioDerecha: "."
+      imagenDerecha: "/images/funny.jpg"
+
+      centro:
+        title: "PEQUEÑOS ANTOJOS, GRANDES MOMENTOS"
+        sub_item_title: "De lunes a domingo, siempre contigo."
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "PAY DE REQUESÓN"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/payes.jpg"
+
+      tituloDerecha: "PASTELES PERSONALIZADOS"
+      precioDerecha: "."
+      imagenDerecha: "/images/personalizadocake.jpg"
+
+      centro:
+        title: "PORQUE SIEMPRE HAY ESPACIO PARA EL POSTRE..."
+        sub_item_title: "De lunes a domingo, siempre contigo."
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "CHOCOFLAN DE NUTELLA Y CAJETA"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/flancho.jpg"
+
+      tituloDerecha: "GELATINA MOSAICO"
+      precioDerecha: "."
+      imagenDerecha: "/images/mosaico.jpg"
+
+      centro:
+        title: "UN POQUITO DE CIELO EN CADA BOCADO"
+        sub_item_title: "De lunes a domingo, siempre contigo."
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "LATTE DE NUTELLA A LAS ROCAS"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/ronutella.jpg"
+
+      tituloDerecha: "PASTEL 3 LECHES"
+      precioDerecha: "."
+      imagenDerecha: "/images/3leches.jpg"
+
+      centro:
+        title: "HECHOS PARA CONSENTIRTE"
+        sub_item_title: "De lunes a domingo, siempre contigo."
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "CHEESECAKE DECORADO"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/cheesedecorado.jpg"
+
+      tituloDerecha: "PASTEL DE MOKA"
+      precioDerecha: "."
+      imagenDerecha: "/images/pasmoka.jpg"
+
+      centro:
+        title: "SABOR QUE UNE FAMILIAS"
+        sub_item_title: "De lunes a domingo, siempre contigo."
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "PASTELITO DECORADO"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/jirafa.jpg"
+
+      tituloDerecha: "PASTEL DE CHOCOLATE"
+      precioDerecha: "."
+      imagenDerecha: "/images/paschocolate.jpg"
+
+      centro:
+        title: "EL DETALLE PERFECTO PARA CELEBRAR"
+        sub_item_title: "De lunes a domingo, siempre contigo."
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "CARAMEL MACCHIATO A LAS ROCAS"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/caramelmac.jpg"
+
+      tituloDerecha: "PASTEL DECORADO Y PERSONALIZADO PARA CADA OCASIÓN"
+      precioDerecha: "."
+      imagenDerecha: "/images/2arleth.png"
+
+      centro:
+        title: "LA PERFECCIÓN SÍ TIENE SABOR"
+        sub_item_title: "De lunes a domingo, siempre contigo."
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "LATTE A LAS ROCAS DE OREO"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/fraoereo.jpg"
+
+      tituloDerecha: "TIZANAS A LAS ROCAS(PREGUNTA POR LOS SABORES DISPONIBLES)"
+      precioDerecha: "."
+      imagenDerecha: "/images/tizaroca.jpg"
+
+      centro:
+        title: "SABOR, FRESCURA Y FELICIDAD EN CADA ORDEN"
+        sub_item_title: "De lunes a domingo, siempre contigo."
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "MATCHA SUCIO A LAS ROCAS"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/2sucio.jpg"
+
+      tituloDerecha: "MARGARITAS"
+      precioDerecha: "."
+      imagenDerecha: "/images/maggie.jpg"
+
+      centro:
+        title: "FRESCURA QUE SE DISFRUTA HASTA LA ÚLTIMA GOTA"
+        sub_item_title: "De lunes a domingo, siempre contigo."
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "PASTELES PARA EVENTOS"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/comunion.jpg"
+
+      tituloDerecha: "PASTELES PARA EVENTOS"
+      precioDerecha: "."
+      imagenDerecha: "/images/catrina.jpg"
+
+      centro:
+        title: "PORQUE TODA CELEBRACIÓN MERECE UN BUEN PASTEL"
+        sub_item_title: "De lunes a domingo, siempre contigo."
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: triptico
+    duration: 14
+    data:
+      tituloIzquierda: "TÚ ELIGES EL BAÑO: CHOCOLATE LÍQUIDO, CAJETA O LECHERA"
+      precioIzquierda: "."
+      imagenIzquierda: "/images/pepinos.jpg"
+
+      tituloDerecha: "¡PIDE EL TUYO ANTES DE QUE SE ACABE!"
+      precioDerecha: "."
+      imagenDerecha: "/images/dulcepes.jpg"
+
+      centro:
+        title: "📍 PORTAL OCAMPO #10"
+        sub_item_title: "Topping: 🍓Fresas frescas, o pídelo con 🍌platano, 🥭mango o tu fruta de temporada favorita."
+        sub_item_price: " "
+        rows:
+          - title: "Reservaciones y pedidos a domicilio"
+            price: " "
+          - title: "Tel: 351-175-40-97 📞"
+            price: " "
+
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/4coco.jpg"
+
+      titulo: "¡TENEMOS NUEVAS BEBIDAS!"
+
+      descripcion:
+        - "LATTE COCO MATCHA"
+        - "Bebida cremosa que no se pueden perder"
+        - "Un sabor hecho justo para tí."
+
+
+
+
+
+
+
+
