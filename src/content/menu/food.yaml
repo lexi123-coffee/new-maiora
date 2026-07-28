@@ -330,6 +330,24 @@ slides:
         - "¡Lo bueno es que en MAIORA tenemos ambos para tí!"
         - "Tú eliges... o mejor, prueba los dos!!"
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/promosushi.jpg"
+
+      titulo: "SUSHIS A TU GUSTO, IDEALES PARA TI."
+
+      descripcion:
+        - "Distintos estilos"
+        - "Personalizados para cada paladar"
+
+
+
+
+
+
+
+
 
 
 
