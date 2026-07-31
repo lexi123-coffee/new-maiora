@@ -412,6 +412,21 @@ slides:
         - "Bebida cremosa que no se pueden perder"
         - "Un sabor hecho justo para tí."
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/baileys.jpg"
+
+      titulo: "FRAPPEADO A LAS ROCAS O CALIENTITO"
+
+      descripcion:
+        - "¿Qué tal te caería una bebida acompañada con BAILEYS?"
+        - "Elije tu momento, nosotros ponemos el toque perfecto."
+
+
+
+
+
 
 
 
