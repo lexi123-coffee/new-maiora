@@ -341,9 +341,16 @@ slides:
         - "Distintos estilos"
         - "Personalizados para cada paladar"
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/burger.jpg"
 
+      titulo: "¡CONOCE NUESTRA HAMBURGUESA MAIORA!"
 
-
+      descripcion:
+        - "Carne de res, arrachera, jamón, salchicha, tocino, piña y gratinada con rico queso fundido"
+        - "Acompañada de papas a la francesa. ¿Crees poder con ella?"
 
 
 
