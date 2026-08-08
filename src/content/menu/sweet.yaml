@@ -423,6 +423,17 @@ slides:
         - "¿Qué tal te caería una bebida acompañada con BAILEYS?"
         - "Elije tu momento, nosotros ponemos el toque perfecto."
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/chongos.png"
+
+      titulo: "EL MEJOR FRAPPÉ DE CHONGOS LO ENCUENTRAS AQUÍ"
+
+      descripcion:
+        - "Pura tradición, puro antojo"
+        - "El balance perfecto entre lo dulce y lo refrescante"
+
 
 
 

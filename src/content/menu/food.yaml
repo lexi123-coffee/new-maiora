@@ -350,7 +350,28 @@ slides:
 
       descripcion:
         - "Carne de res, arrachera, jamón, salchicha, tocino, piña y gratinada con rico queso fundido"
-        - "Acompañada de papas a la francesa. ¿Crees poder con ella?"
+
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/cevichee.png"
+
+      titulo: "EL VERDADERO SABOR DEL MAR JUSTO AQUÍ"
+
+      descripcion:
+        - "Tu antojo de ceviche, resuelto"
+        - "Tus tostadas, tu cerveza y el mejor ceviche te esperan"
+
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/jugostacos.png"
+
+      titulo: "UNOS TACOS DE ARRACHERA QUE LEVANTAN A CUALQUIERA"
+
+      descripcion:
+        - "Jugosidad y sabor que superan cualquier expectativa"
+
 
 
 
