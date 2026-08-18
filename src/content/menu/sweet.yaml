@@ -434,6 +434,18 @@ slides:
         - "Pura tradición, puro antojo"
         - "El balance perfecto entre lo dulce y lo refrescante"
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/chicacoffee.jpg"
+
+      titulo: "CAFÉ TAMAÑO ANTOJO, SUFICIENTE, POR FIN."
+
+      descripcion:
+        - "Un café que aguanta la plática"
+        - "Advertencia: puede requerir las dos manos"
+
+
 
 
 
