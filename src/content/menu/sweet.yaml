@@ -445,6 +445,20 @@ slides:
         - "Un café que aguanta la plática"
         - "Advertencia: puede requerir las dos manos"
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/oreolat.png"
+
+      titulo: "UN PEQUEÑO CAPRICHO, UN ENORME SABOR"
+
+      descripcion:
+        - "Si amas las Oreo, prepárate para esto"
+        - "Tu galleta favorita acaba de subir de nivel"
+
+
+
+
 
 
 
