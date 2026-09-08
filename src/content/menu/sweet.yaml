@@ -456,6 +456,17 @@ slides:
         - "Si amas las Oreo, prepárate para esto"
         - "Tu galleta favorita acaba de subir de nivel"
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/sepzanahoria.jpg"
+
+      titulo: "DULCE TENTACIÓN DE ZANAHORIA"
+
+      descripcion:
+        - "Un clásico que enamora desde el primer bocado"
+        - "Una rebanada y entenderás por qué lo amarás"
+
 
 
 

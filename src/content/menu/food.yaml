@@ -372,6 +372,23 @@ slides:
       descripcion:
         - "Jugosidad y sabor que superan cualquier expectativa"
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/mexsushis.jpg"
+
+      titulo: "EL FLOW MEXICANO SIEMPRE QUEDA BIEN"
+
+      descripcion:
+        - "Mucho sabor, cero fronteras"
+        - "Japón y México nunca supieron tan bien juntos"
+        - "Una mezcla que tenía que suceder"
+
+
+
+
+
+
 
 
 
