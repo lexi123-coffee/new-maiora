@@ -57,6 +57,7 @@ const { title, price, image } = Astro.props;
 
     h2 {
       font-family: 'Cinzel', serif;
+      font-weight: 700;
       font-size: 1.8vw;
       color: #000;
       text-transform: uppercase;
@@ -69,6 +70,11 @@ const { title, price, image } = Astro.props;
       font-size: 0.6em;
       display: block;
       margin-top: 0.5rem;
+    }
+
+    h2 :global(.subtitulo) {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
     }
 
     /* PRECIO */
@@ -86,5 +92,4 @@ const { title, price, image } = Astro.props;
     }
 
 </style>
-
 

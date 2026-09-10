@@ -303,7 +303,7 @@ slides:
       titulo: "YA UTILIZAMOS ENERGÍA SOLAR"
 
       descripcion:
-        - "WhatsApp: 353-132-14-05"
+        - "WhatsApp:353-132-14-05"
         - "Rosa González - Asesora de ventas."
         - "Rodrigo Plascencia - Instalación Profesional."
 
@@ -339,7 +339,7 @@ slides:
 
       descripcion:
         - "Distintos estilos"
-        - "Personalizados para cada paladar"
+        - "Personalizados para cada paladar."
 
   - template: fullscreen
     duration: 14
@@ -349,7 +349,7 @@ slides:
       titulo: "¡CONOCE NUESTRA HAMBURGUESA MAIORA!"
 
       descripcion:
-        - "Carne de res, arrachera, jamón, salchicha, tocino, piña y gratinada con rico queso fundido"
+        - "Carne de res, arrachera, jamón, salchicha, tocino, piña y gratinada con rico queso fundido."
 
   - template: fullscreen
     duration: 14
@@ -360,7 +360,7 @@ slides:
 
       descripcion:
         - "Tu antojo de ceviche, resuelto"
-        - "Tus tostadas, tu cerveza y el mejor ceviche te esperan"
+        - "Tus tostadas, tu cerveza y el mejor ceviche te esperan."
 
   - template: fullscreen
     duration: 14
@@ -370,7 +370,7 @@ slides:
       titulo: "UNOS TACOS DE ARRACHERA QUE LEVANTAN A CUALQUIERA"
 
       descripcion:
-        - "Jugosidad y sabor que superan cualquier expectativa"
+        - "Jugosidad y sabor que superan cualquier expectativa."
 
   - template: fullscreen
     duration: 14
@@ -382,7 +382,7 @@ slides:
       descripcion:
         - "Mucho sabor, cero fronteras"
         - "Japón y México nunca supieron tan bien juntos"
-        - "Una mezcla que tenía que suceder"
+        - "Una mezcla que tenía que suceder."
 
 
 

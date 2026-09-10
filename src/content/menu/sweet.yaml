@@ -432,7 +432,7 @@ slides:
 
       descripcion:
         - "Pura tradición, puro antojo"
-        - "El balance perfecto entre lo dulce y lo refrescante"
+        - "El balance perfecto entre lo dulce y lo refrescante."
 
   - template: fullscreen
     duration: 14
@@ -443,7 +443,7 @@ slides:
 
       descripcion:
         - "Un café que aguanta la plática"
-        - "Advertencia: puede requerir las dos manos"
+        - "Advertencia: puede requerir las dos manos."
 
   - template: fullscreen
     duration: 14
@@ -454,7 +454,7 @@ slides:
 
       descripcion:
         - "Si amas las Oreo, prepárate para esto"
-        - "Tu galleta favorita acaba de subir de nivel"
+        - "Tu galleta favorita acaba de subir de nivel."
 
   - template: fullscreen
     duration: 14
@@ -465,7 +465,18 @@ slides:
 
       descripcion:
         - "Un clásico que enamora desde el primer bocado"
-        - "Una rebanada y entenderás por qué lo amarás"
+        - "Una rebanada y entenderás por qué lo amarás."
+
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/arg-mex.jpg"
+
+      titulo: "ARGENTINA EN CADA MORDIDA, MÉXICO EN EL CORAZÓN"
+
+      descripcion:
+        - "Dos culturas, un mismo sabor"
+        - "El antojo que siempre quieres repetir."
 
 
 
