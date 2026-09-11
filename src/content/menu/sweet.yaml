@@ -428,7 +428,7 @@ slides:
     data:
       imagen: "/images/chongos.png"
 
-      titulo: "EL MEJOR FRAPPÉ DE CHONGOS LO ENCUENTRAS AQUÍ"
+      titulo: "EL MEJOR FRAPPÉ DE CHONGOS ESTÁ AQUÍ"
 
       descripcion:
         - "Pura tradición, puro antojo"
@@ -477,6 +477,34 @@ slides:
       descripcion:
         - "Dos culturas, un mismo sabor"
         - "El antojo que siempre quieres repetir."
+
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/2arg-mex.jpg"
+
+      titulo: "¿ALFAJOR CUBIERTO? ¡POR SUPUESTO QUE SÍ!"
+
+      descripcion:
+        - "Argentina lo inspira, México lo disfruta"
+        - "Dulce de leche que cruza fronteras"
+
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/oreojeje.jpg"
+
+      titulo: "SI, OREO SIEMPRE ES GARANTÍA"
+
+      descripcion:
+        - "De lo clásico a lo irresistible"
+        - "Un sabor conocido, una experiencia diferente"
+
+
+
+
+
+
 
 
 
