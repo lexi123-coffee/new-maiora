@@ -500,6 +500,18 @@ slides:
         - "De lo clásico a lo irresistible"
         - "Un sabor conocido, una experiencia diferente"
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/mexcoco.jpg"
+
+      titulo: "EL LADO DULCE DEL MES PATRIO"
+
+      descripcion:
+        - "Dale un grito tropical a tu antojo mexicano"
+        - "Un sorbo y estás en el paraíso."
+
+
 
 
 
