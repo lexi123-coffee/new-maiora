@@ -511,6 +511,20 @@ slides:
         - "Dale un grito tropical a tu antojo mexicano"
         - "Un sorbo y estás en el paraíso."
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/IMG_8142.jpg"
+
+      titulo: "¡REFRESCA TU DÍA CON SABOR A TRADICIÓN!"
+
+      descripcion:
+        - "El sabor de nuestras raíces, ahora en frappé"
+        - "Para el calor, horchata con mucho sabor."
+
+
+
+
 
 
 
