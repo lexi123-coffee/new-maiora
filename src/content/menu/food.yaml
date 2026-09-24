@@ -298,18 +298,6 @@ slides:
   - template: fullscreen
     duration: 14
     data:
-      imagen: "/images/energia.jpg"
-
-      titulo: "YA UTILIZAMOS ENERGÍA SOLAR"
-
-      descripcion:
-        - "WhatsApp:353-132-14-05"
-        - "Rosa González - Asesora de ventas."
-        - "Rodrigo Plascencia - Instalación Profesional."
-
-  - template: fullscreen
-    duration: 14
-    data:
       imagen: "/images/suizas.jpg"
 
       titulo: "¡NUEVO PLATILLO DISPONIBLE!"
@@ -383,6 +371,17 @@ slides:
         - "Mucho sabor, cero fronteras"
         - "Japón y México nunca supieron tan bien juntos"
         - "Una mezcla que tenía que suceder."
+
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/2ahorro.jpg"
+
+      titulo: "ENERGÍA INTELIGENTE, AHORRO PERMANENTE"
+
+      descripcion:
+        - "Tu techo puede ser tu mejor inversión"
+        - "El sol no te cobra, ¡aprovéchalo!"
 
 
 

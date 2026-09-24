@@ -522,6 +522,17 @@ slides:
         - "El sabor de nuestras raíces, ahora en frappé"
         - "Para el calor, horchata con mucho sabor."
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/ahorro.jpg"
+
+      titulo: "ENERGÍA LIMPIA PARA UN FUTURO BRILLANTE"
+
+      descripcion:
+        - "Hoy aprovechamos el sol, mañana cuidamos el planeta"
+        - "Tu negocio brilla, el planeta respira."
+
 
 
 
