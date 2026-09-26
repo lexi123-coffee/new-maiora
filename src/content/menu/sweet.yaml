@@ -533,6 +533,39 @@ slides:
         - "Hoy aprovechamos el sol, mañana cuidamos el planeta"
         - "Tu negocio brilla, el planeta respira."
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/prueba.jpg"
+
+      titulo: "¡UN ANTOJO DE OTRO MUNDO!"
+
+      descripcion:
+        - "Escoge tú el relleno: Nutella, Queso crema, Dulce de leche, Cajeta, Lechera, Crema batida, etc."
+
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/pumpkin.jpg"
+
+      titulo: "¡DALE UNA PROBADA AL OTOÑO!"
+
+      descripcion:
+        - "Un sorbo de pura magia"
+        - "El sabor de temporada que se disfruta a tu manera."
+
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/3pan.jpg"
+
+      titulo: "¡DULCE TRADICIÓN, ETERNO SABOR!"
+
+      descripcion:
+        - "¡Entre flores, recuerdos y antojos, que nunca falte el pan de muerto!"
+        - "Hasta nuestros difuntos regresan por un pancito."
+
+
 
 
 
