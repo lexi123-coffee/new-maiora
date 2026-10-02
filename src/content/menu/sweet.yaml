@@ -459,17 +459,6 @@ slides:
   - template: fullscreen
     duration: 14
     data:
-      imagen: "/images/sepzanahoria.jpg"
-
-      titulo: "DULCE TENTACIÓN DE ZANAHORIA"
-
-      descripcion:
-        - "Un clásico que enamora desde el primer bocado"
-        - "Una rebanada y entenderás por qué lo amarás."
-
-  - template: fullscreen
-    duration: 14
-    data:
       imagen: "/images/arg-mex.jpg"
 
       titulo: "ARGENTINA EN CADA MORDIDA, MÉXICO EN EL CORAZÓN"
@@ -499,28 +488,6 @@ slides:
       descripcion:
         - "De lo clásico a lo irresistible"
         - "Un sabor conocido, una experiencia diferente"
-
-  - template: fullscreen
-    duration: 14
-    data:
-      imagen: "/images/mexcoco.jpg"
-
-      titulo: "EL LADO DULCE DEL MES PATRIO"
-
-      descripcion:
-        - "Dale un grito tropical a tu antojo mexicano"
-        - "Un sorbo y estás en el paraíso."
-
-  - template: fullscreen
-    duration: 14
-    data:
-      imagen: "/images/IMG_8142.jpg"
-
-      titulo: "¡REFRESCA TU DÍA CON SABOR A TRADICIÓN!"
-
-      descripcion:
-        - "El sabor de nuestras raíces, ahora en frappé"
-        - "Para el calor, horchata con mucho sabor."
 
   - template: fullscreen
     duration: 14

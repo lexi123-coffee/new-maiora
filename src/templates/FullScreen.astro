@@ -136,4 +136,83 @@ const {
     font-weight:bold;
 }
 
+/* ========================================
+   ENTRADA ELEGANTE DEL FULLSCREEN
+   Optimizada para Smart TV
+======================================== */
+
+/* La fotografía entra muy suavemente */
+:global(.menu-page.active) .image-box {
+    animation: fullscreenImageIn 1.2s ease-out both;
+}
+
+/* Título */
+:global(.menu-page.active) .info-box h1 {
+    animation: fullscreenTextIn 1s ease-out 0.15s both;
+}
+
+/* Descripciones */
+:global(.menu-page.active) .info-box li {
+    animation: fullscreenTextIn 1s ease-out both;
+}
+
+/* Entrada escalonada */
+.info-box li:nth-child(1) {
+    animation-delay: 0.30s;
+}
+
+.info-box li:nth-child(2) {
+    animation-delay: 0.45s;
+}
+
+.info-box li:nth-child(3) {
+    animation-delay: 0.60s;
+}
+
+.info-box li:nth-child(4) {
+    animation-delay: 0.75s;
+}
+
+
+/* FOTO:
+   desplazamiento mínimo + aparición */
+@keyframes fullscreenImageIn {
+    from {
+        opacity: 0;
+        transform: translate3d(-12px, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+/* TEXTO:
+   entra desde la derecha hacia su posición actual */
+@keyframes fullscreenTextIn {
+    from {
+        opacity: 0;
+        transform: translate3d(18px, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+/* Accesibilidad */
+@media (prefers-reduced-motion: reduce) {
+    .image-box,
+    .info-box h1,
+    .info-box li {
+        animation: none;
+    }
+}
+
 </style>
+
+

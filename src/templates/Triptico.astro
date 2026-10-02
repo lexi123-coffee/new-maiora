@@ -92,26 +92,60 @@ const {
     position: absolute;
     top: 4%;
     right: -1px;
+
     width: 7px;
     height: 92%;
     border-radius: 999px;
 
     background: linear-gradient(
-        to bottom,
-        rgba(197,160,89,.4),
-        rgba(197,160,89,.9),
-        rgba(197,160,89,.9),
-        transparent
+        180deg,
+        rgba(197, 160, 89, 0.28) 0%,
+        rgba(197, 160, 89, 0.45) 28%,
+        rgba(230, 193, 112, 0.85) 41%,
+        rgba(255, 235, 175, 1) 50%,
+        rgba(230, 193, 112, 0.85) 59%,
+        rgba(197, 160, 89, 0.45) 72%,
+        rgba(197, 160, 89, 0.28) 100%
     );
 
+    background-size: 100% 200%;
+    background-position: center top;
+
     box-shadow:
-        0 0 8px rgba(197,160,89,.35),
-        0 0 18px rgba(197,160,89,.25),
-        0 0 30px rgba(197,160,89,.15);
+        0 0 7px rgba(197, 160, 89, 0.45),
+        0 0 16px rgba(197, 160, 89, 0.25);
 
     z-index: 10;
 
-    animation: goldGlow 5s ease-in-out infinite;
+    animation: maioraGoldFlow 10s ease-in-out infinite alternate;
+}
+
+/* El segundo borde va desfasado */
+.grid-item:nth-child(2)::after {
+    animation-delay: -5s;
+}
+
+@keyframes maioraGoldFlow {
+    0% {
+        background-position: center top;
+        opacity: 0.85;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        background-position: center bottom;
+        opacity: 0.90;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .grid-item:nth-child(1)::after,
+    .grid-item:nth-child(2)::after {
+        animation: none;
+    }
 }
 
 .item-teal {

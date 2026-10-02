@@ -221,9 +221,15 @@ const slides = entry.data.slides;
       object-fit: cover;
     }
 
-    .tv-mode * {
-      animation: none !important;
-      transition: none !important;
+   /* Optimización para Smart TV */
+    .tv-mode .image-box {
+      box-shadow:
+        0 10px 30px rgba(0,0,0,.6),
+        0 0 18px rgba(197,160,89,.35);
+    }
+
+    .tv-mode .image-box img {
+      filter: none;
     }
 
 </style>
