@@ -371,6 +371,17 @@ slides:
         - "Tu techo puede ser tu mejor inversión"
         - "El sol no te cobra, ¡aprovéchalo!"
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/japon.jpg"
+
+      titulo: "¡EL ANTOJO COMIENZA CON UNA MIRADA!"
+
+      descripcion:
+        - "Un mundo de sabores en un solo plato"
+        - "Pruébalo una vez y se volverá tu favorito."
+
 
 
 
