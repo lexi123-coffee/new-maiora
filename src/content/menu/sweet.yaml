@@ -532,6 +532,19 @@ slides:
         - "¡Entre flores, recuerdos y antojos, que nunca falte el pan de muerto!"
         - "Hasta nuestros difuntos regresan por un pancito."
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/cookies.jpg"
+
+      titulo: "AMOR A MORDIDAS"
+
+      descripcion:
+        - "No son solo galletas, son momentos de felicidad"
+        - "Si el antojo llama, nuestras galletas responden"
+
+
+
 
 
 
