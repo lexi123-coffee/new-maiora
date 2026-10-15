@@ -132,11 +132,11 @@ slides:
     data:
       tituloIzquierda: "ALFAJOR TRADICIONAL"
       precioIzquierda: "."
-      imagenIzquierda: "/images/alfajor.jpg"
+      imagenIzquierda: "/images/alfayellow.png"
 
       tituloDerecha: "ALFAJOR CHOCOLATE BLANCO"
       precioDerecha: "."
-      imagenDerecha: "/images/ab.jpg"
+      imagenDerecha: "/images/alfawhite.png"
 
       centro:
         title: "DULCE, ELEGANTE Y AUTÉNTICO"
@@ -153,11 +153,11 @@ slides:
     data:
       tituloIzquierda: "ALFAJOR DE OREO"
       precioIzquierda: "."
-      imagenIzquierda: "/images/another.jpg"
+      imagenIzquierda: "/images/alfablack.png"
 
       tituloDerecha: "CREPAS Y HOT CAKES"
       precioDerecha: "."
-      imagenDerecha: "/images/tres.jpg"
+      imagenDerecha: "/images/three.png"
 
       centro:
         title: "CADA POSTRE CUENTA UNA HISTORIA"
@@ -237,11 +237,11 @@ slides:
     data:
       tituloIzquierda: "LATTE DE NUTELLA A LAS ROCAS"
       precioIzquierda: "."
-      imagenIzquierda: "/images/ronutella.jpg"
+      imagenIzquierda: "/images/lattenut.png"
 
       tituloDerecha: "PASTEL 3 LECHES"
       precioDerecha: "."
-      imagenDerecha: "/images/3leches.jpg"
+      imagenDerecha: "/images/3milks.png"
 
       centro:
         title: "HECHOS PARA CONSENTIRTE"
@@ -300,11 +300,11 @@ slides:
     data:
       tituloIzquierda: "CARAMEL MACCHIATO A LAS ROCAS"
       precioIzquierda: "."
-      imagenIzquierda: "/images/caramelmac.jpg"
+      imagenIzquierda: "/images/macchiato.png"
 
       tituloDerecha: "PASTEL DECORADO Y PERSONALIZADO PARA CADA OCASIÓN"
       precioDerecha: "."
-      imagenDerecha: "/images/2arleth.png"
+      imagenDerecha: "/images/karimejeje.png"
 
       centro:
         title: "LA PERFECCIÓN SÍ TIENE SABOR"
@@ -321,11 +321,11 @@ slides:
     data:
       tituloIzquierda: "LATTE A LAS ROCAS DE OREO"
       precioIzquierda: "."
-      imagenIzquierda: "/images/fraoereo.jpg"
+      imagenIzquierda: "/images/orrio.png"
 
       tituloDerecha: "TIZANAS A LAS ROCAS(PREGUNTA POR LOS SABORES DISPONIBLES)"
       precioDerecha: "."
-      imagenDerecha: "/images/tizaroca.jpg"
+      imagenDerecha: "/images/tizanita.png"
 
       centro:
         title: "SABOR, FRESCURA Y FELICIDAD EN CADA ORDEN"
@@ -342,11 +342,11 @@ slides:
     data:
       tituloIzquierda: "MATCHA SUCIO A LAS ROCAS"
       precioIzquierda: "."
-      imagenIzquierda: "/images/2sucio.jpg"
+      imagenIzquierda: "/images/dirty.png"
 
-      tituloDerecha: "MARGARITAS"
+      tituloDerecha: "RICAS MARGARITAS"
       precioDerecha: "."
-      imagenDerecha: "/images/maggie.jpg"
+      imagenDerecha: "/images/hand.png"
 
       centro:
         title: "FRESCURA QUE SE DISFRUTA HASTA LA ÚLTIMA GOTA"
@@ -379,26 +379,16 @@ slides:
           - title: "Tel: 351-175-40-97 📞"
             price: " "
 
-  - template: triptico
+  - template: fullscreen
     duration: 14
     data:
-      tituloIzquierda: "TÚ ELIGES EL BAÑO: CHOCOLATE LÍQUIDO, CAJETA O LECHERA"
-      precioIzquierda: "."
-      imagenIzquierda: "/images/pepinos.jpg"
+      imagen: "/images/kindersushi.png"
 
-      tituloDerecha: "¡PIDE EL TUYO ANTES DE QUE SE ACABE!"
-      precioDerecha: "."
-      imagenDerecha: "/images/dulcepes.jpg"
+      titulo: "ALGO REALMENTE DELICIOSO... ¡SUSHI DULCE!"
 
-      centro:
-        title: "📍 PORTAL OCAMPO #10"
-        sub_item_title: "Topping: 🍓Fresas frescas, o pídelo con 🍌platano, 🥭mango o tu fruta de temporada favorita."
-        sub_item_price: " "
-        rows:
-          - title: "Reservaciones y pedidos a domicilio"
-            price: " "
-          - title: "Tel: 351-175-40-97 📞"
-            price: " "
+      descripcion:
+        - "Chocolate líquido, cajeta o lechera"
+        - "Pídelo con fresas, plátano o mango"
 
   - template: fullscreen
     duration: 14
@@ -508,7 +498,7 @@ slides:
       titulo: "¡UN ANTOJO DE OTRO MUNDO!"
 
       descripcion:
-        - "Escoge tú el relleno: Nutella, Queso crema, Dulce de leche, Cajeta, Lechera, Crema batida, etc."
+        - "Escoge tú el relleno: Nutella, queso crema, dulce de leche, cajeta, lechera, crema batida, etc."
 
   - template: fullscreen
     duration: 14
