@@ -533,6 +533,21 @@ slides:
         - "No son solo galletas, son momentos de felicidad"
         - "Si el antojo llama, nuestras galletas responden"
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/cinco.jpg"
+
+      titulo: "¡UNA REBANADITA NUNCA ES SUFICIENTE!"
+
+      descripcion:
+        - "Grandes o pequeños, todos llenos de sabor"
+        - "¡Tus antojos no tienen que esperar!"
+
+
+
+
+
 
 
 
