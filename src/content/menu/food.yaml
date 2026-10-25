@@ -382,25 +382,27 @@ slides:
         - "Un mundo de sabores en un solo plato"
         - "Pruébalo una vez y se volverá tu favorito."
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/estrella.jpg"
 
+      titulo: "¡SE VE BRUTAL, SABE ESPECTACULAR!"
 
+      descripcion:
+        - "De esos sabores que no se olvidan"
+        - "¡El antojo tiene nuevo protagonista!"
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/atun_salmon.jpg"
 
+      titulo: "¡ENRÓLLATE CON EL SABOR!"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      descripcion:
+        - "¡Que no te cuenten, mejor ven a probarlos!"
+        - "¡Se ven increíbles, pero saben todavía mejor!"
 
 
 
