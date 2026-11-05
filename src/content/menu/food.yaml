@@ -374,35 +374,25 @@ slides:
   - template: fullscreen
     duration: 14
     data:
-      imagen: "/images/japon.jpg"
+      imagen: "/images/01november.jpg"
 
-      titulo: "¡EL ANTOJO COMIENZA CON UNA MIRADA!"
+      titulo: "¡ARMA TU REVOLUCIÓN DE SABOR!"
 
       descripcion:
-        - "Un mundo de sabores en un solo plato"
-        - "Pruébalo una vez y se volverá tu favorito."
+        - "¡El único combate que vale la pena es contra el hambre!"
+        - "Para compartir… si te dejan."
 
   - template: fullscreen
     duration: 14
     data:
-      imagen: "/images/estrella.jpg"
+      imagen: "/images/02november.jpg"
 
-      titulo: "¡SE VE BRUTAL, SABE ESPECTACULAR!"
-
-      descripcion:
-        - "De esos sabores que no se olvidan"
-        - "¡El antojo tiene nuevo protagonista!"
-
-  - template: fullscreen
-    duration: 14
-    data:
-      imagen: "/images/atun_salmon.jpg"
-
-      titulo: "¡ENRÓLLATE CON EL SABOR!"
+      titulo: "DOS DELICIAS, UNA DECISIÓN DIFÍCIL..."
 
       descripcion:
-        - "¡Que no te cuenten, mejor ven a probarlos!"
-        - "¡Se ven increíbles, pero saben todavía mejor!"
+        - "¡A la orden, mi general! ¿Arrachera o pollo?"
+        - "¡Si no puedes decidirte, tendrás que probar los dos!"
+
 
 
 

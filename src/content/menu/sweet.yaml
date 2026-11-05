@@ -493,57 +493,13 @@ slides:
   - template: fullscreen
     duration: 14
     data:
-      imagen: "/images/prueba.jpg"
+      imagen: "/images/03november.jpg"
 
-      titulo: "¡UN ANTOJO DE OTRO MUNDO!"
-
-      descripcion:
-        - "Escoge tú el relleno: Nutella, queso crema, dulce de leche, cajeta, lechera, crema batida, etc."
-
-  - template: fullscreen
-    duration: 14
-    data:
-      imagen: "/images/pumpkin.jpg"
-
-      titulo: "¡DALE UNA PROBADA AL OTOÑO!"
+      titulo: "UN SORBITO Y OTRO POQUITO..."
 
       descripcion:
-        - "Un sorbo de pura magia"
-        - "El sabor de temporada que se disfruta a tu manera."
-
-  - template: fullscreen
-    duration: 14
-    data:
-      imagen: "/images/3pan.jpg"
-
-      titulo: "¡DULCE TRADICIÓN, ETERNO SABOR!"
-
-      descripcion:
-        - "¡Entre flores, recuerdos y antojos, que nunca falte el pan de muerto!"
-        - "Hasta nuestros difuntos regresan por un pancito."
-
-  - template: fullscreen
-    duration: 14
-    data:
-      imagen: "/images/cookies.jpg"
-
-      titulo: "AMOR A MORDIDAS"
-
-      descripcion:
-        - "No son solo galletas, son momentos de felicidad"
-        - "Si el antojo llama, nuestras galletas responden"
-
-  - template: fullscreen
-    duration: 14
-    data:
-      imagen: "/images/cinco.jpg"
-
-      titulo: "¡UNA REBANADITA NUNCA ES SUFICIENTE!"
-
-      descripcion:
-        - "Grandes o pequeños, todos llenos de sabor"
-        - "¡Tus antojos no tienen que esperar!"
-
+        - "El primer sorbo enamora, el segundo te conquista"
+        - "¡Frío, caliente o frappeado, tu antojo está solucionado!"
 
 
 
