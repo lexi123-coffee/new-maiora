@@ -490,31 +490,6 @@ slides:
         - "Hoy aprovechamos el sol, mañana cuidamos el planeta"
         - "Tu negocio brilla, el planeta respira."
 
-  - template: fullscreen
-    duration: 14
-    data:
-      imagen: "/images/03november.jpg"
-
-      titulo: "UN SORBITO Y OTRO POQUITO..."
-
-      descripcion:
-        - "El primer sorbo enamora, el segundo te conquista"
-        - "¡Frío, caliente o frappeado, tu antojo está solucionado!"
-
-  - template: fullscreen
-    duration: 14
-    data:
-      imagen: "/images/gurmet.jpg"
-
-      titulo: "UN CAPRICHO MUY MUY DELICIOSO..."
-
-      descripcion:
-        - "¡Ándale, date un gustito!"
-        - "¡No salgas por tu antojo, nosotros te lo llevamos!"
-
-
-
-
 
 
 

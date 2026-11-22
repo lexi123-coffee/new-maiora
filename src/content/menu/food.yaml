@@ -374,82 +374,13 @@ slides:
   - template: fullscreen
     duration: 14
     data:
-      imagen: "/images/conosin.jpg"
+      imagen: "/images/grinch.jpg"
 
-      titulo: "¡ARMA TU REVOLUCIÓN DE SABOR!"
-
-      descripcion:
-        - "¡El único combate que vale la pena es contra el hambre!"
-        - "Para compartir… si te dejan."
-
-  - template: fullscreen
-    duration: 14
-    data:
-      imagen: "/images/diferentes.jpg"
-
-      titulo: "DOS DELICIAS, UNA DECISIÓN DIFÍCIL..."
+      titulo: "SANTA TRAE LOS REGALOS, MAIORA TRAE EL SUSHI"
 
       descripcion:
-        - "¡A la orden, mi general! ¿Arrachera o pollo?"
-        - "¡Si no puedes decidirte, tendrás que probar los dos!"
-
-  - template: fullscreen
-    duration: 14
-    data:
-      imagen: "/images/corregida.jpg"
-
-      titulo: "¡AQUÍ SE COME EN GRANDE!"
-
-      descripcion:
-        - "Mucho sabor, cero miedo"
-        - "La reina del antojo"
-        - "¡Éntrale con ganas!"
-
-
-  - template: fullscreen
-    duration: 14
-    data:
-      imagen: "/images/amlo.jpg"
-
-      titulo: "¡LA TENTACIÓN ESTÁ SERVIDA!"
-
-      descripcion:
-        - "¡Pa' darse un buen gusto!"
-        - "Un rico antojo con sabor a mar"
-
-  - template: fullscreen
-    duration: 14
-    data:
-      imagen: "/images/rev.jpg"
-
-      titulo: "¡EL ANTOJO SE LEVANTÓ EN ARMAS!"
-
-      descripcion:
-        - "¡Aquí se lucha contra el hambre!"
-        - "Ni Zapata se resistiría"
-
-  - template: fullscreen
-    duration: 14
-    data:
-      imagen: "/images/primera.jpg"
-
-      titulo: "PARA CADA PLATILLO, UNA CONQUISTA..."
-
-      descripcion:
-        - "El placer de elegir"
-        - "¡Tu antojo, nuestra especialidad!"
-
-  - template: fullscreen
-    duration: 14
-    data:
-      imagen: "/images/segunda.jpg"
-
-      titulo: "¡EL HAMBRE TIENE SUS DÍAS CONTADOS!"
-
-      descripcion:
-        - "¡Si, se come a lo grande!"
-        - "¡El sabor toma el mando!"
-
+        - "No cocines hoy, ¡mejor disfruta Maiora!"
+        - "Más sabor, más rollos, más felicidad."
 
 
 
