@@ -382,6 +382,17 @@ slides:
         - "No cocines hoy, ¡mejor disfruta Maiora!"
         - "Más sabor, más rollos, más felicidad."
 
+  - template: fullscreen
+    duration: 14
+    data:
+      imagen: "/images/2maxroll.jpg"
+
+      titulo: "¡ESTA NAVIDAD, REGÁLATE ALGO MÁXIMO!"
+
+      descripcion:
+        - "Esta temporada, el antojo se viste de rey"
+        - "¡Prepárate para enamorarte bocado a bocado!"
+
 
 
 
